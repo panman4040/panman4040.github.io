@@ -10,8 +10,8 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+theme                  : "minimal-mistakes-jekyll"
+remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "panman4040/panman4040.github.io"
 teaser                   : "/assets/images/doraemon.png"
 logo                     : "/assets/images/logo_mon.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "An's Awesome Blog"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
