@@ -26,7 +26,7 @@ During high school, my friends from Informatics class suggested I should dive in
 Initially, my parents disapproved of this, seeing how I drifted away from my main major. But after some talks and convincing, they gave in and allowed me to continue studying Informatics. With encouragement from my family as well as help from classmates and alumni, I continue to delve into Algorithm and am still learning new things every day.
 
 ### Tabletop Games
-I have always been fond of board games ever since I was little. I'm a homebody so it's hard for me to stir up any conversations. I've found board games as an easier way, for homebodies like me, to connect to people, whether it be funny moments or teamwork against adversaries. Tabletop games have helped me make a lot of close friends, some are still close to me today.
+I have always been fond of board games ever since I was little. I'm a homebody so it's hard for me to stir up any conversations. I've found board games as an easier alternative, for homebodies like me, to connect to people, whether it be funny moments or teamwork against adversaries. Tabletop games have helped me make a lot of close friends, some are still close to me today.
 
 ![My board games arsenal](../assets/images/tabletop_games.jpg "My board games arsenal")
 
