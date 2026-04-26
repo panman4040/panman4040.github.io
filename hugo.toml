@@ -1,4 +1,4 @@
-baseURL = "https://panman4040.github.io"
+baseURL = "https://panman4040.github.io/"
 languageCode = "en-us"
 title = "an's security blog"
 theme = "terminal"
