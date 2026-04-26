@@ -1,0 +1,8 @@
++++
+date = '2026-04-26T07:16:16+07:00'
+draft = true
+title = ''
++++
+# welcome aboard! hope you're feeling cozy
+Hello there! I am An, a Year 2 Computer Science student at NTU. Welcome to my blog where I document every nitty gritty detail of my cybersecurity journey!
+

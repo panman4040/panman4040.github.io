@@ -1,0 +1,63 @@
+baseURL = "https://panman.writeups.lol"
+languageCode = "en-us"
+title = "an's security blog"
+theme = "terminal"
+paginate = 5  
+
+[params]
+  contentTypeName = "posts"
+  showMenuItems = 5
+  fullWidthTheme = false
+  centerTheme = true
+  autoCover = true
+  showLastUpdated = true
+
+[params.logo]
+  logoText = "an@security:~$"
+  logoHomeLink = "/"
+  logo = "favicon.png"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "an's security blog"
+    subtitle = "CTF writeups, pentesting notes, and cybersecurity learning"
+    owner = "An"
+    keywords = "cybersecurity, CTF, pentesting, security, writeups"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "an@security:~$"
+      logoHomeLink = "/"
+
+  [[languages.en.menu.main]]
+    identifier = "home"
+    name = "home"
+    url = "/"
+    weight = 1
+
+  [[languages.en.menu.main]]
+    identifier = "learning"
+    name = "learning"
+    url = "/learning"
+    weight = 2
+
+  [[languages.en.menu.main]]
+    identifier = "training"
+    name = "training"
+    url = "/training"
+    weight = 3
+
+  [[languages.en.menu.main]]
+    identifier = "ctf"
+    name = "CTF"
+    url = "/ctf"
+    weight = 4
+
+  [[languages.en.menu.main]]
+    identifier = "projects"
+    name = "projects"
+    url = "/projects"
+    weight = 5
