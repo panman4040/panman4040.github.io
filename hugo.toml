@@ -2,7 +2,9 @@ baseURL = "https://panman.writeups.lol"
 languageCode = "en-us"
 title = "an's security blog"
 theme = "terminal"
-paginate = 5  
+
+[pagination]
+  pagerSize = 5 
 
 [params]
   contentTypeName = "posts"
