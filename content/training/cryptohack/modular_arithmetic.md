@@ -68,11 +68,11 @@ with $s_i = s_{i-2} - q_{i-1} \cdot s_{i-1}$ and $t_i = t_{i-2} - q_{i-1} \cdot 
 ## Finite Fields and Rings
 Imagine we've picked a modulus $p$, where $p$ is prime. The integers modulo $p$ define a field, denoted $\mathbb{F}_p$. Within $\mathbb{F}_p$, every number is prime to the modulus. This means all four basic operations work as normal.
 
-Whereas if $p$ is not prime, it is called a \textbf{ring}. In a ring, division is broken. For example, in modulo 6 math, you cannot divide by 2 or 3 because they share divisors with 6.
+Whereas if $p$ is not prime, it is called a **ring**. In a ring, division is broken. For example, in modulo 6 math, you cannot divide by 2 or 3 because they share divisors with 6.
 
 Note that while addition, subtraction, and multiplication works exactly as you thought it would do, division is multiplying by an inverse, that is every non-zero number must have an inverse that multiplies with it to make 1 (congruent to 1).
 
-A finite field $\mathbb{F}_p$ is the set of integers $0, 1, \dots, p - 1$, and under both addition and multiplication there are inverse elements $b_+$ and $b_*$ for every element $a$ in the set, such that $a + b_+ = 0$ and $a \cdot b_* = 1$.
+A finite field $\mathbb{F}_p$ is the set of integers $0, 1, \dots, p - 1$, and under both addition and multiplication there are inverse elements $b_+$ and $b_{\ast}$ for every element $a$ in the set, such that $a + b_+ = 0$ and $a \cdot b_{\ast} = 1$.
 
 ## Fermat's little theorem
 It's best to remember this as it will soon be needed for RSA cryptography.
@@ -97,7 +97,7 @@ We say that an integer $x$ is a Quadratic Residue if there exists an $a$ such th
 
 If $x$ is a Quadratic Residue, we say that the square root of $x$ is $a$.
 
-For the elements of $\mathbb{F}_p^*$, not every element has a square root. In fact, roughly one half of the elements of $\mathbb{F}_p^*$, there is no square root.
+For the elements of $\mathbb{F}_p^{\ast}$, not every element has a square root. In fact, roughly one half of the elements of $\mathbb{F}_p^{\ast}$, there is no square root.
 
 Interesting properties of quadratic (non-)residues:
 
