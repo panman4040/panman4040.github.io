@@ -1,5 +1,5 @@
 +++
-date = '2026-04-27T07:23:16+07:00'
+date = '2026-05-04T07:23:16+07:00'
 draft = false
 title = 'CryptoHack'
 tags = ['training', 'CryptoHack', 'writeups']
