@@ -18,7 +18,7 @@ enableGitInfo = true
 
 [params]
   contentTypeName = "posts"
-  showMenuItems = 5
+  showMenuItems = 6
   fullWidthTheme = false
   centerTheme = true
   autoCover = true
@@ -76,3 +76,9 @@ enableGitInfo = true
     name = "projects"
     url = "/projects"
     weight = 5
+
+  [[languages.en.menu.main]]
+    identifier = "search"
+    name = "search"
+    url = "/search"
+    weight = 6
