@@ -36,6 +36,23 @@ jobs:
         run: |
           DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           sed -i "s/^date = .*/date = '$DATE'/" content/_index.md
+      - name: Update section lastmod for modified sections
+        run: |
+          DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          # Find parent dirs of any content files changed in this push
+          git diff --name-only HEAD~1 HEAD | grep "^content/" | grep -v "/_index\.md$" | \
+            xargs -I{} dirname {} | sort -u | \
+            while read dir; do
+              index="$dir/_index.md"
+              if [ -f "$index" ]; then
+                if grep -q "^lastmod" "$index"; then
+                  sed -i "s/^lastmod = .*/lastmod = '$DATE'/" "$index"
+                else
+                  sed -i "/^+++$/a lastmod = '$DATE'" "$index"
+                fi
+                echo "Updated lastmod in $index"
+              fi
+            done
       - name: Build with Hugo
         run: |
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
