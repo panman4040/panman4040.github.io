@@ -15,8 +15,8 @@ enableGitInfo = true
   autoCover = true
   showLastUpdated = true
   readMore = "Read more"
-  readOtherPosts = "Read other posts"
   menuMore = "Show more"
+  readOtherPosts = "Read other posts"
 
 [params.logo]
   logoText = "an@security:~$"
