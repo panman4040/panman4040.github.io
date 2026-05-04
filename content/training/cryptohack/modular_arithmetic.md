@@ -2,6 +2,7 @@
 date = '2026-05-04T11:58:16+08:00'
 draft = false
 title = 'Modular Arithmetic'
+tags = ['training', 'CryptoHack', 'writeups', 'cryptography']
 description = 'Key notes I have summarised for this section, quite math-heavy (notes: need to review periodically to train my brain muscle as the maths for these problems are quite intuitive)'
 showLastUpdated = true
 +++

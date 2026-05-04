@@ -2,6 +2,7 @@
 date = '2026-04-27T07:23:16+07:00'
 draft = false
 title = 'Introduction to CryptoHack'
+tags = ['training', 'CryptoHack', 'writeups', 'cryptography']
 description = 'Important remarks for the introductory challenges'
 showLastUpdated = true
 +++
