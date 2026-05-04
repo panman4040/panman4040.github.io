@@ -19,6 +19,9 @@
           {{- if .Date -}}
             <time class="post-date">
               {{- partial "post-date" . -}}
+              {{- if and $.Site.Params.showLastUpdated .Lastmod -}}
+                &nbsp;{{- partial "post-lastmod" . -}}
+              {{- end -}}
             </time>
           {{- end -}}
           {{- with .Params.Author -}}
