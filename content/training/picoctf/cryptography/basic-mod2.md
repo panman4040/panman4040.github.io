@@ -2,7 +2,7 @@
 date = '2026-05-04T21:36:16+08:00'
 draft = false
 title = 'basic-mod2'
-tags = ['training', 'CryptoHack', 'writeups', 'cryptography']
+tags = ['training', 'PicoCTF', 'writeups', 'cryptography']
 description = 'Similar to basic-mod1 with a tweak'
 showLastUpdated = true
 +++

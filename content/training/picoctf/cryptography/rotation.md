@@ -2,7 +2,7 @@
 date = '2026-05-04T21:50:16+08:00'
 draft = false
 title = 'rotation'
-tags = ['training', 'CryptoHack', 'writeups', 'cryptography']
+tags = ['training', 'PicoCTF', 'writeups', 'cryptography']
 description = 'Simple implementation of Caesar cipher'
 showLastUpdated = true
 +++
