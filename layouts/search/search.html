@@ -3,19 +3,150 @@
   <script src="/pagefind/pagefind-ui.js"></script>
 
   <style>
-    .search-wrapper {
-      margin-top: 2rem;
+    /* ── Pagefind theme tokens ─────────────────────────────────────── */
+    #search {
+      --pagefind-ui-primary:             var(--accent);
+      --pagefind-ui-text:                var(--foreground);
+      --pagefind-ui-background:          var(--background);
+      --pagefind-ui-border:              var(--accent);
+      --pagefind-ui-tag:                 var(--accent);
+      --pagefind-ui-border-width:        2px;
+      --pagefind-ui-border-radius:       0px;
+      --pagefind-ui-image-border-radius: 0px;
+      --pagefind-ui-font:                "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace;
     }
-    /* Match terminal theme accent colour for the search input border/focus */
+
+    /* ── Force zero radius on every Pagefind element ──────────────── */
+    .pagefind-ui__search-input,
+    .pagefind-ui__search-clear,
+    .pagefind-ui__result,
+    .pagefind-ui__button,
+    .pagefind-ui__filter-panel,
+    .pagefind-ui__filter-block,
+    .pagefind-ui__result-tag {
+      border-radius: 0 !important;
+    }
+
+    /* ── Search input ──────────────────────────────────────────────── */
+    .pagefind-ui__search-input {
+      background:   transparent !important;
+      color:        var(--foreground) !important;
+      border:       2px solid var(--accent) !important;
+      font-family:  "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace !important;
+      font-size:    var(--font-size) !important;
+    }
+
+    .pagefind-ui__search-input::placeholder {
+      color: color-mix(in srgb, var(--foreground) 40%, transparent);
+    }
+
     .pagefind-ui__search-input:focus {
-      outline: 1px solid var(--accent);
+      outline:        1px solid var(--accent) !important;
+      outline-offset: 2px;
     }
+
+    /* ── Clear button ──────────────────────────────────────────────── */
     .pagefind-ui__search-clear {
-      color: var(--accent);
+      background:  transparent !important;
+      color:       var(--accent) !important;
+      border:      2px solid var(--accent) !important;
+      font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace !important;
+      font-weight: bold !important;
+      padding:     5px 12px !important;
+    }
+
+    .pagefind-ui__search-clear:hover {
+      background: color-mix(in srgb, var(--accent) 15%, transparent) !important;
+    }
+
+    /* ── "N results for …" message ─────────────────────────────────── */
+    .pagefind-ui__message {
+      color:       var(--foreground) !important;
+      font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace !important;
+      font-size:   var(--font-size) !important;
+    }
+
+    /* ── Filter row (Best match / Years / Tags / Expand) ──────────── */
+    .pagefind-ui__filter-panel,
+    .pagefind-ui__filter-block {
+      font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace !important;
+      color:       var(--foreground) !important;
+    }
+
+    .pagefind-ui__filter-panel button,
+    .pagefind-ui__filter-block button {
+      background:   transparent !important;
+      color:        var(--accent) !important;
+      border:       2px solid var(--accent) !important;
+      border-radius:0 !important;
+      font-family:  "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace !important;
+      font-weight:  bold !important;
+      padding:      3px 10px !important;
+      transition:   background 0.15s linear;
+    }
+
+    .pagefind-ui__filter-panel button:hover,
+    .pagefind-ui__filter-block button:hover {
+      background: color-mix(in srgb, var(--accent) 15%, transparent) !important;
+    }
+
+    /* ── Result cards ──────────────────────────────────────────────── */
+    .pagefind-ui__result {
+      border-top:  2px solid color-mix(in srgb, var(--accent) 30%, transparent) !important;
+      padding:     20px 0 !important;
+    }
+
+    /* ── Result title ──────────────────────────────────────────────── */
+    .pagefind-ui__result-title a {
+      color:        var(--accent) !important;
+      font-family:  "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace !important;
+      font-weight:  bold !important;
+      text-decoration: none !important;
+    }
+
+    .pagefind-ui__result-title a:hover {
+      text-decoration: underline !important;
+    }
+
+    /* ── Result excerpt ────────────────────────────────────────────── */
+    .pagefind-ui__result-excerpt {
+      color:       var(--foreground) !important;
+      font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace !important;
+      font-size:   var(--font-size) !important;
+    }
+
+    /* ── Highlighted match in excerpt (same as <mark> on site) ────── */
+    .pagefind-ui__result-excerpt mark {
+      background: color-mix(in srgb, var(--accent) 45%, transparent) !important;
+      color:      var(--foreground) !important;
+    }
+
+    /* ── Tags ──────────────────────────────────────────────────────── */
+    .pagefind-ui__result-tag {
+      background:  color-mix(in srgb, var(--accent) 12%, transparent) !important;
+      color:       var(--accent) !important;
+      border:      1px solid color-mix(in srgb, var(--accent) 40%, transparent) !important;
+      font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace !important;
+      font-size:   0.85em !important;
+    }
+
+    /* ── "Load more" button ────────────────────────────────────────── */
+    .pagefind-ui__button {
+      background:   transparent !important;
+      color:        var(--accent) !important;
+      border:       4px solid var(--accent) !important;
+      font-family:  "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace !important;
+      font-weight:  bold !important;
+      padding:      5px 18px !important;
+      transition:   background 0.15s linear;
+    }
+
+    .pagefind-ui__button:hover {
+      background: color-mix(in srgb, var(--accent) 15%, transparent) !important;
     }
   </style>
 
-  <div class="search-wrapper">
+  <div style="margin-top: 1rem;">
     <div id="search"></div>
   </div>
 
@@ -28,7 +159,6 @@
         resetStyles: false
       });
 
-      // Auto-focus the search box and populate from URL ?q= param
       const params = new URLSearchParams(window.location.search);
       const q = params.get('q');
       if (q) {
