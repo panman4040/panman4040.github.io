@@ -1,5 +1,5 @@
 +++
-date = '2026-05-19T11:25:25+07:00'
+date = '2026-05-25T11:25:25+07:00'
 draft = false
 title = 'Bandit'
 tags = ['training', 'OverTheWire', 'writeups', 'Linux']
@@ -99,3 +99,39 @@ sort data.txt | uniq -u
 where the `-u` flag is used to display unique lines only
 
 Password: `4CKMh1JI91bUIZZPXDqGanal4xvAg0JM`
+
+## Bandit 9
+We will use `strings` to first filter all human-readable lines, that is any sequence of characters that has **at least 4 characters long** and ends with `\0`. Then, we pipe the output to `grep '==='` to obtain our password.
+```bash
+strings data.txt | grep '==='
+```
+
+Password: `FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey`
+
+## Bandit 10
+One quirk of Base64 is that there are usually some padding equal signs at the end of the encoded string
+```bash
+cat data.txt | base64 -d
+```
+
+Password: `dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr`
+
+## Bandit 11
+Simple ROT13 decode with `tr`. The syntax is essentially:
+```bash
+tr 'set1' 'set2'
+```
+It takes characters from `set1` and maps them directly to the corresponding characters in `set2`.
+
+This is my initial solution:
+```bash
+cat data.txt | tr 'N-ZA-Mn-za-m' 'A-MN-Za-mn-z'
+```
+While this works, this falls into a funny case of **Useless Use of `cat`**. Basically it's when `cat` is used to read a single file to pass its contents into a pipe for another command. This makes the shell create two separate processes in memory, in this case the two processes are `cat` and `tr`.
+
+A better way is to redirect the file's content using `<` as per the optimal script below:
+```bash
+tr 'A-Za-z' 'N-ZA-Mn-za-m' < data.txt
+```
+
+Password: `7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4`
