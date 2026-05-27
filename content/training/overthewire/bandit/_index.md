@@ -1,5 +1,5 @@
 +++
-date = '2026-05-25T11:25:25+07:00'
+date = '2026-05-27T16:40:16+07:00'
 draft = false
 title = 'Bandit'
 tags = ['training', 'OverTheWire', 'writeups', 'Linux']
@@ -135,3 +135,61 @@ tr 'A-Za-z' 'N-ZA-Mn-za-m' < data.txt
 ```
 
 Password: `7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4`
+
+## Bandit 12
+In this wargame, we are given a **hex dump**. A hex dump is a view of a file where every single byte of data is translated into a hexadecimal number (base-16, using 0-9 and A-F).
+
+When you look at a hex dump, it is usually split into three columns:
+- The Offset (Address): Tells you where you are in the file (how many bytes from the beginning).
+- The Hex Bytes: The actual raw data, usually grouped in pairs (e.g., 1f 8b 08).
+- The ASCII Translation: A text representation of those bytes on the far right. If a byte isn't a printable text character, it usually just shows up as a dot (.).
+
+You can get the original binary file using `xxd -r hexdump.txt output.bin`. After that it's a series of inspecting file format using `file <file-name>` and decompressing them.
+
+Password: `FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn`
+
+## Bandit 13
+Pretty tricky wargame introducing SSH and SCP file transfer. First, you will need to transfer the private key to our machine using the following command:
+```bash
+scp -P 2220 bandit13@bandit.labs.overthewire.org:~/sshkey.private ~/
+```
+Next, if we try to use that private key to log into bandit14, we will be denied due to the key files "too open". This is why we use SCP to transfer back to our machine to be able to change permission for the file:
+```bash
+chmod 700 sshkey.private
+```
+Only then can we log into bandit14 (notice the `-i` flag) and get our password:
+```bash
+ssh -p 2220 -i ~/sshkey.private bandit14@bandit.labs.overthewire.org
+```
+
+Password: `MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS`
+
+## Bandit 14
+Connect to localhost through port 30000 using telnet, then type the password obtained and `host:telnet`, then SHIFT + ENTER
+
+Password: `8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo`
+
+## Bandit 15
+First you need to connect to port 30001 with this:
+```bash
+openssl s_client -connect localhost:30001
+```
+where:
+- `s_client` is a program inside the OpenSSL toolkit. It stands for SSL/TLS Client and act as a client that knows how to establish a TLS connection with the destination
+
+After that, simply paste the old password and we shall get our password.
+
+Password: `kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx`
+
+## Bandit 16
+First, we find out which of the ports in the range 31000-32000 has a server listening on them (note: we will use TCP Connect as it can be used even if you're not on `sudoers`):
+```bash
+nmap -sT -p 31000-32000 localhost
+```
+
+One thing to note is that the old password starts with a `k`, which triggers a TLS 1.3 Key Update. OpenSSL will intercept the `k` and send the rest to the server, which is the wrong password. To amend this, simply add the `-quiet` flag that disables all the interactive command (`k`, `r`, `q`):
+```bash
+openssl s_client -connect localhost:31790 -quiet
+```
+
+There should be 5 open ports, we can probe each one with OpenSSL to get our **private key** for the next level.
