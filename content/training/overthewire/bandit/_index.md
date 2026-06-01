@@ -1,5 +1,5 @@
 +++
-date = '2026-05-27T16:40:16+07:00'
+date = '2026-06-01T17:13:16+07:00'
 draft = false
 title = 'Bandit'
 tags = ['training', 'OverTheWire', 'writeups', 'Linux']
@@ -193,3 +193,35 @@ openssl s_client -connect localhost:31790 -quiet
 ```
 
 There should be 5 open ports, we can probe each one with OpenSSL to get our **private key** for the next level.
+```bash
+chmod 700 /tmp/key
+ssh -i /tmp/key bandit17@bandit.labs.overthewire.org
+```
+
+## Bandit 17
+Simply use `diff` to find which line has been changed, and that's our password.
+
+```bash
+diff passwords.new passwords.old
+```
+
+Password: `x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO`
+
+## Bandit 18
+The `.bashrc` file is a hidden configuration script in our home directory `~/.bashrc`. It is essentially the terminal's setup routine. 
+
+Because the `.bashrc` file for the `bandit18` user is scripted to immediately exit once logged in. To circumvent this, we execute the following:
+```bash
+ssh -p 2220 bandit18@bandit.labs.overthewire.org -t "bash --norc"
+```
+The `-t` flag is what's called a **Force Pseudo-Terminal Allocation**, basically it force opens an interactive keyboard and screen and attach it to the command in the double quotations. In this case our command `bash --norc` starts a brand new Bash shell and ignores the `~/.bashrc` file.
+
+Password: `cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8`
+
+## Bandit 19
+This is a case of **Privilege Escalation**, basically `bandit20-do` has a special `setuid` access flag that allows users to run an executable (in this case `bandit20-do`) with the file system permissions of the executable's owner (or group, `setgid`). Thus we can act as `bandit20` by running the executable and obtain the password as follow:  
+```bash
+./bandit20-do cat /etc/bandit_pass/bandit20
+```
+
+Password: `0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO`
