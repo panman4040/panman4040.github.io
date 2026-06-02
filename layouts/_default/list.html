@@ -44,8 +44,8 @@
         <div class="post-content">
           {{ if .Params.showFullContent }}
             {{ .Content }}
-          {{ else if .Description }}
-            <p>{{ .Description | markdownify }}</p>
+          {{ else if isset .Params "description" }}
+            {{ with .Description }}<p>{{ . | markdownify }}</p>{{ end }}
           {{ else }}
             {{ .Summary }}
           {{ end }}
