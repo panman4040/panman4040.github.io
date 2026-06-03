@@ -1,5 +1,5 @@
 +++
-date = '2026-06-02T16:20:16+08:00'
+date = '2026-06-03T16:00:16+08:00'
 draft = false
 title = 'PortSwigger'
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
