@@ -14,7 +14,7 @@ enableGitInfo = true
   unsafe = true
 
 [pagination]
-  pagerSize = 5 
+  pagerSize = 300
 
 [params]
   contentTypeName = "posts"
