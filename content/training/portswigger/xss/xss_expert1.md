@@ -12,5 +12,12 @@ Some of the valid tags are `<a>`, `<animate>`, `<image>`, and `<svg>`. This is a
 
 The answer is using the `<animate>` tag, with its convenient `attributeName` and `values` attributes, it allows us to indirectly modify the parent tag's attributes and their values. Thus we can craft a payload as follow:
 ```javascript
-<svg><a><animate attributeName=href values=javascript:alert(1) /><text x=20 y=20>Click me</text></a>
+<svg>
+    <a>
+        <animate attributeName=href values=javascript:alert(1) />
+            <text x=20 y=20>Click me</text>
+    </a>
+</svg>
 ```
+
+Note that this payload requires the victim to click the damning link, hence the Click me.
