@@ -45,4 +45,4 @@ Now without parenthesis, how do we actually execute the function? Note the snipp
 
 But notice that we also replace the global `toString` with our own function `x`. This means the browser inadvertently executes our payload, without us even having to use parenthesis!
 
-The end bit `,{x:'` will close whatever JSON residue left. Since the backend code runs something like `fetch(..., {body:'...[PAYLOAD]...'})`, that snippet will create a new object literal and eats up the trailing `}'` at the end.
+The end bit `,{x:'` will close whatever object literal residue left. Since the backend code runs something like `fetch(..., {body:'...[PAYLOAD]...'})`, that snippet will create a new object literal and eats up the trailing `}'` at the end.
