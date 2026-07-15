@@ -1,7 +1,7 @@
 +++
 date = '2026-06-23T15:56:16+08:00'
 draft = false
-title = 'DOM XSS in innerHTML sink using source location.search'
+title = "DOM XSS in innerHTML sink using source location.search | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

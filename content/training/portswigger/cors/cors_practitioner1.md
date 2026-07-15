@@ -1,7 +1,7 @@
 +++
 date = '2026-07-07T13:43:16+08:00'
 draft = false
-title = 'CORS vulnerability with trusted insecure protocols'
+title = "CORS vulnerability with trusted insecure protocols | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

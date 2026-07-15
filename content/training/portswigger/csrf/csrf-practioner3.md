@@ -1,7 +1,7 @@
 +++
 date = '2026-06-04T14:06:16+08:00'
 draft = false
-title = 'CSRF where token is not tied to user session'
+title = "CSRF where token is not tied to user session | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

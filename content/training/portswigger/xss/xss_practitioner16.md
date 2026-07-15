@@ -1,7 +1,7 @@
 +++
 date = '2026-07-01T10:10:16+08:00'
 draft = false
-title = 'Reflected XSS protected by very strict CSP, with dangling markup attack'
+title = "Reflected XSS protected by very strict CSP, with dangling markup attack | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

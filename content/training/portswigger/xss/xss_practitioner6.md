@@ -1,7 +1,7 @@
 +++
 date = '2026-06-26T09:41:16+08:00'
 draft = false
-title = 'Reflected XSS into HTML context with all tags blocked except custom ones'
+title = "Reflected XSS into HTML context with all tags blocked except custom ones | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = 'Interesting lab regarding HTML custom tags. Very fun'
 showLastUpdated = true

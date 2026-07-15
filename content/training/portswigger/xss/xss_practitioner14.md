@@ -1,7 +1,7 @@
 +++
 date = '2026-06-30T16:20:16+08:00'
 draft = false
-title = 'Exploiting XSS to bypass CSRF defenses'
+title = "Exploiting XSS to bypass CSRF defenses | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

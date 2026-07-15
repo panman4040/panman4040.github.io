@@ -1,7 +1,7 @@
 +++
 date = '2026-06-02T14:43:16+08:00'
 draft = false
-title = 'Unprotected Admin Functionality'
+title = "Unprotected Admin Functionality | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = 'My first lab!'
 showLastUpdated = true

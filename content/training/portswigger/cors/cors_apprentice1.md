@@ -1,7 +1,7 @@
 +++
 date = '2026-07-07T09:43:16+08:00'
 draft = false
-title = 'CORS vulnerability with basic origin reflection'
+title = "CORS vulnerability with basic origin reflection | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

@@ -1,7 +1,7 @@
 +++
 date = '2026-07-14T14:19:16+08:00'
 draft = false
-title = 'SQL injection UNION attack, determining the number of columns returned by the query'
+title = "SQL injection UNION attack, determining the number of columns returned by the query | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

@@ -1,7 +1,7 @@
 +++
 date = '2026-06-11T15:50:16+08:00'
 draft = false
-title = 'Referer-based access control'
+title = "Referer-based access control | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

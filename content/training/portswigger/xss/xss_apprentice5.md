@@ -1,7 +1,7 @@
 +++
 date = '2026-06-26T15:13:16+08:00'
 draft = false
-title = 'Reflected XSS into attribute with angle brackets HTML-encoded'
+title = "Reflected XSS into attribute with angle brackets HTML-encoded | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

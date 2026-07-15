@@ -1,7 +1,7 @@
 +++
 date = '2026-07-06T13:50:16+08:00'
 draft = false
-title = 'CSRF where Referer validation depends on header being present'
+title = "CSRF where Referer validation depends on header being present | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

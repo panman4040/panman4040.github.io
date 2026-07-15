@@ -1,7 +1,7 @@
 +++
 date = '2026-07-08T13:46:16+08:00'
 draft = false
-title = 'Exploiting clickjacking vulnerability to trigger DOM-based XSS'
+title = "Exploiting clickjacking vulnerability to trigger DOM-based XSS | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

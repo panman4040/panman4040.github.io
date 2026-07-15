@@ -1,7 +1,7 @@
 +++
 date = '2026-07-08T10:18:16+08:00'
 draft = false
-title = 'Clickjacking with a frame buster script'
+title = "Clickjacking with a frame buster script | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

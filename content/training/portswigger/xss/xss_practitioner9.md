@@ -1,7 +1,7 @@
 +++
 date = '2026-06-29T09:11:16+08:00'
 draft = false
-title = 'Reflected XSS into a JavaScript string with single quote and backslash escaped'
+title = "Reflected XSS into a JavaScript string with single quote and backslash escaped | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

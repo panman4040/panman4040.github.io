@@ -1,7 +1,7 @@
 +++
 date = '2026-07-06T13:49:16+08:00'
 draft = false
-title = 'SameSite Strict bypass via sibling domain'
+title = "SameSite Strict bypass via sibling domain | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = 'Really interesting labs utilising reflected XSS and WebSocket hijacking. Highly suggest reviewing.'
 showLastUpdated = true

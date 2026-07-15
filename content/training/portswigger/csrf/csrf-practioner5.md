@@ -1,7 +1,7 @@
 +++
 date = '2026-06-04T15:33:16+08:00'
 draft = false
-title = 'CSRF where token is duplicated in cookie'
+title = "CSRF where token is duplicated in cookie | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

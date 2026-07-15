@@ -1,7 +1,7 @@
 +++
 date = '2026-06-24T15:40:16+08:00'
 draft = false
-title = 'DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded'
+title = "DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = 'Quirk involving AngularJS function filter. Highly suggest reviewing'
 showLastUpdated = true

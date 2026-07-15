@@ -1,7 +1,7 @@
 +++
 date = '2026-07-06T15:45:16+08:00'
 draft = false
-title = 'CSRF with broken Referer validation'
+title = "CSRF with broken Referer validation | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

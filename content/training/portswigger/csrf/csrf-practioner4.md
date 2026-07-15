@@ -1,7 +1,7 @@
 +++
 date = '2026-06-04T14:30:16+08:00'
 draft = false
-title = 'CSRF token is tied to a non-session cookie'
+title = "CSRF token is tied to a non-session cookie | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = 'Very interesting problem. Highly suggest reviewing'
 showLastUpdated = true

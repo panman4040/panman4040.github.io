@@ -1,7 +1,7 @@
 +++
 date = '2026-07-09T13:23:16+08:00'
 draft = false
-title = 'Exploiting a mass assignment vulnerability'
+title = "Exploiting a mass assignment vulnerability | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

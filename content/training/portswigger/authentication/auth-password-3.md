@@ -1,7 +1,7 @@
 +++
 date = '2026-06-08T15:31:16+08:00'
 draft = false
-title = 'Broken brute-force protection, IP block'
+title = "Broken brute-force protection, IP block | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = 'Bypass IP block while brute forcing II, with Python script'
 showLastUpdated = true

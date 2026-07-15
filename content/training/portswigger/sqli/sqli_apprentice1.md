@@ -1,7 +1,7 @@
 +++
 date = '2026-06-03T14:31:16+08:00'
 draft = false
-title = 'SQL injection vulnerability in WHERE clause allowing retrieval of hidden data'
+title = "SQL injection vulnerability in WHERE clause allowing retrieval of hidden data | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

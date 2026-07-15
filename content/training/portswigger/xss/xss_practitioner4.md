@@ -1,7 +1,7 @@
 +++
 date = '2026-06-25T14:30:16+08:00'
 draft = false
-title = 'Stored DOM XSS'
+title = "Stored DOM XSS | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

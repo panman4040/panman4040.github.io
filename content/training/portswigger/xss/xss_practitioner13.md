@@ -1,7 +1,7 @@
 +++
 date = '2026-06-30T14:19:16+08:00'
 draft = false
-title = 'Exploiting cross-site scripting to steal cookies'
+title = "Exploiting cross-site scripting to steal cookies | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

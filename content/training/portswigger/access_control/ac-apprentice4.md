@@ -1,7 +1,7 @@
 +++
 date = '2026-06-11T13:59:16+08:00'
 draft = false
-title = 'Method-based access control can be circumvented'
+title = "Method-based access control can be circumvented | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

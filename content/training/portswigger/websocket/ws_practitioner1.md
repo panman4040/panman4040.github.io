@@ -1,7 +1,7 @@
 +++
 date = '2026-07-03T15:39:16+08:00'
 draft = false
-title = 'Manipulating the WebSocket handshake to exploit vulnerabilities'
+title = "Manipulating the WebSocket handshake to exploit vulnerabilities | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = 'Hell of a lab, highly suggest reviewing'
 showLastUpdated = true

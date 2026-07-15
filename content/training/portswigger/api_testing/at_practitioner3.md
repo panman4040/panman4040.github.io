@@ -1,7 +1,7 @@
 +++
 date = '2026-07-09T15:06:16+08:00'
 draft = false
-title = 'Exploiting server-side parameter pollution in a query string'
+title = "Exploiting server-side parameter pollution in a query string | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = 'Quite challenging lab, pls review'
 showLastUpdated = true

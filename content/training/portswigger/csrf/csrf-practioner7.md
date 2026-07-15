@@ -1,7 +1,7 @@
 +++
 date = '2026-06-05T10:22:16+08:00'
 draft = false
-title = 'SameSite Strict bypass via client-side redirect'
+title = "SameSite Strict bypass via client-side redirect | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = 'Very interesting path traversal problem'
 showLastUpdated = true

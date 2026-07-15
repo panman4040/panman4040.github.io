@@ -1,7 +1,7 @@
 +++
 date = '2026-06-05T09:41:16+08:00'
 draft = false
-title = 'SameSite Lax bypass via method override'
+title = "SameSite Lax bypass via method override | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

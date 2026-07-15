@@ -1,7 +1,7 @@
 +++
 date = '2026-06-29T10:23:16+08:00'
 draft = false
-title = 'Reflected XSS in a JavaScript URL with some characters blocked'
+title = "Reflected XSS in a JavaScript URL with some characters blocked | <span style=\"color:#9b59b6\">Expert</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = 'Yet another Expert XSS Lab. Highly suggest reviewing'
 showLastUpdated = true

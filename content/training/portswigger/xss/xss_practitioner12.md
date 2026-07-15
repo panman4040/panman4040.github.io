@@ -1,7 +1,7 @@
 +++
 date = '2026-06-30T13:48:16+08:00'
 draft = false
-title = 'Reflected XSS into a template literal with angle brackets, single, double quotes, backslash and backticks Unicode-escaped'
+title = "Reflected XSS into a template literal with angle brackets, single, double quotes, backslash and backticks Unicode-escaped | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

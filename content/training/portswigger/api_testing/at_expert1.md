@@ -1,7 +1,7 @@
 +++
 date = '2026-07-14T10:53:16+08:00'
 draft = false
-title = 'Exploiting server-side parameter pollution in a REST URL'
+title = "Exploiting server-side parameter pollution in a REST URL | <span style=\"color:#9b59b6\">Expert</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = 'Final Expert lab for this topic, lots of content bundled'
 showLastUpdated = true

@@ -1,7 +1,7 @@
 +++
 date = '2026-06-08T14:15:16+08:00'
 draft = false
-title = 'Username enumeration via response timing'
+title = "Username enumeration via response timing | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = 'Bypass IP block while brute forcing'
 showLastUpdated = true

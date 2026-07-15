@@ -1,7 +1,7 @@
 +++
 date = '2026-06-24T09:21:16+08:00'
 draft = false
-title = 'DOM XSS in jQuery anchor href attribute sink using location.search source'
+title = "DOM XSS in jQuery anchor href attribute sink using location.search source | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

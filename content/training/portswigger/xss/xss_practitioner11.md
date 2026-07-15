@@ -1,7 +1,7 @@
 +++
 date = '2026-06-30T09:25:16+08:00'
 draft = false
-title = 'Stored XSS into onclick event with angle brackets and double quotes HTML-encoded and single quotes and backslash escaped'
+title = "Stored XSS into onclick event with angle brackets and double quotes HTML-encoded and single quotes and backslash escaped | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

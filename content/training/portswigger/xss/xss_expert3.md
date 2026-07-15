@@ -1,7 +1,7 @@
 +++
 date = '2026-07-03T13:32:16+08:00'
 draft = false
-title = 'Reflected XSS protected by CSP, with CSP bypass'
+title = "Reflected XSS protected by CSP, with CSP bypass | <span style=\"color:#9b59b6\">Expert</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

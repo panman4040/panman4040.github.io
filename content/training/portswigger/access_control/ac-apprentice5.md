@@ -1,7 +1,7 @@
 +++
 date = '2026-06-11T15:33:16+08:00'
 draft = false
-title = 'Multi-step process with no access control on one step'
+title = "Multi-step process with no access control on one step | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

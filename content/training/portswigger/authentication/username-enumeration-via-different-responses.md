@@ -1,7 +1,7 @@
 +++
 date = '2026-06-02T15:23:16+08:00'
 draft = false
-title = 'Username enumeration via different responses'
+title = "Username enumeration via different responses | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

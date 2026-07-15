@@ -1,7 +1,7 @@
 +++
 date = '2026-06-08T13:34:16+08:00'
 draft = false
-title = 'Username enumeration via subtly different responses'
+title = "Username enumeration via subtly different responses | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = 'First use of Grep-Extract feature in Intruder'
 showLastUpdated = true

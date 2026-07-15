@@ -1,7 +1,7 @@
 +++
 date = '2026-06-23T14:57:16+08:00'
 draft = false
-title = 'DOM XSS in document.write sink using source location.search inside a select element'
+title = "DOM XSS in document.write sink using source location.search inside a select element | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

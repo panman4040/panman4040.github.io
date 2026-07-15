@@ -1,7 +1,7 @@
 +++
 date = '2026-06-11T10:05:16+08:00'
 draft = false
-title = 'User role can be modified in user profile'
+title = "User role can be modified in user profile | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

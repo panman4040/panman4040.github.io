@@ -1,7 +1,7 @@
 +++
 date = '2026-06-02T15:00:16+08:00'
 draft = false
-title = 'User role controlled by request parameter'
+title = "User role controlled by request parameter | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

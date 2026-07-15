@@ -1,7 +1,7 @@
 +++
 date = '2026-06-26T10:03:16+08:00'
 draft = false
-title = 'Reflected XSS with event handlers and href attributes blocked'
+title = "Reflected XSS with event handlers and href attributes blocked | <span style=\"color:#9b59b6\">Expert</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = 'My first Expert lab! Quirk regarding svg'
 showLastUpdated = true

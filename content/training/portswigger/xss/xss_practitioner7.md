@@ -1,7 +1,7 @@
 +++
 date = '2026-06-26T14:19:16+08:00'
 draft = false
-title = 'Reflected XSS with some SVG markup allowed'
+title = "Reflected XSS with some SVG markup allowed | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

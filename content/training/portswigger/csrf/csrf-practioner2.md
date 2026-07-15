@@ -1,7 +1,7 @@
 +++
 date = '2026-06-04T14:01:16+08:00'
 draft = false
-title = 'CSRF where token validation depends on token being present'
+title = "CSRF where token validation depends on token being present | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

@@ -1,7 +1,7 @@
 +++
 date = '2026-06-26T15:40:16+08:00'
 draft = false
-title = 'Stored XSS into anchor href attribute with double quotes HTML-encoded'
+title = "Stored XSS into anchor href attribute with double quotes HTML-encoded | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

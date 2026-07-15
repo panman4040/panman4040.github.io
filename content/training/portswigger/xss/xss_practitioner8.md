@@ -1,7 +1,7 @@
 +++
 date = '2026-06-26T16:22:16+08:00'
 draft = false
-title = 'Reflected XSS in canonical link tag'
+title = "Reflected XSS in canonical link tag | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = 'Very very interesting lab involving canonical tags, highly suggest reviewing (quite long tho)'
 showLastUpdated = true

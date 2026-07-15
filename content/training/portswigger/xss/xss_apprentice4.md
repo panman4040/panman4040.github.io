@@ -1,7 +1,7 @@
 +++
 date = '2026-06-24T15:16:16+08:00'
 draft = false
-title = 'DOM XSS in jQuery selector sink using a hashchange event'
+title = "DOM XSS in jQuery selector sink using a hashchange event | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

@@ -1,7 +1,7 @@
 +++
 date = '2026-06-04T10:54:16+08:00'
 draft = false
-title = 'CSRF vulnerability with no defenses'
+title = "CSRF vulnerability with no defenses | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

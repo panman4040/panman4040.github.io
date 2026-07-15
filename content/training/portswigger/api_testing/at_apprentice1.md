@@ -1,7 +1,7 @@
 +++
 date = '2026-07-09T09:32:16+08:00'
 draft = false
-title = 'Exploiting an API endpoint using documentation'
+title = "Exploiting an API endpoint using documentation | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

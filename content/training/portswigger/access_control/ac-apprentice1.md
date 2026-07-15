@@ -1,7 +1,7 @@
 +++
 date = '2026-06-11T09:38:16+08:00'
 draft = false
-title = 'Unprotected admin functionality with unpredictable URL'
+title = "Unprotected admin functionality with unpredictable URL | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

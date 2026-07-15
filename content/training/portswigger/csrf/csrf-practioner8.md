@@ -1,7 +1,7 @@
 +++
 date = '2026-06-15T15:56:16+08:00'
 draft = false
-title = 'Cross-site WebSocket hijacking'
+title = "Cross-site WebSocket hijacking | <span style=\"color:#3498db\">Practitioner</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = 'Really really interesting problem, highly suggests reviewing'
 showLastUpdated = true

@@ -1,7 +1,7 @@
 +++
 date = '2026-06-03T15:22:16+08:00'
 draft = false
-title = 'SQL injection vulnerability allowing login bypass'
+title = "SQL injection vulnerability allowing login bypass | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true

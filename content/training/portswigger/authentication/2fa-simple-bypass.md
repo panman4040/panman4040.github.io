@@ -1,7 +1,7 @@
 +++
 date = '2026-06-02T16:14:16+08:00'
 draft = false
-title = '2FA simple bypass'
+title = "2FA simple bypass | <span style=\"color:#2ecc71\">Apprentice</span>"
 tags = ['training', 'PortSwigger', 'writeups', 'web-exploitation']
 description = ''
 showLastUpdated = true
