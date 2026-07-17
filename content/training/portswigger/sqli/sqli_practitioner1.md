@@ -10,7 +10,7 @@ showLastUpdated = true
 The most glaring functionality present is filtering products by category, as shown here:
 ![](/images/viber_image_2026-07-14_16-06-18-933.png)
 
-As reflected in the lab's name, the first step of a UNION-based SQLi is to determine the **number of columns**. We can either union select by index or select by `NULL`, whatever floats your boat.
+As reflected in the lab's name, the first step of a UNION-based SQLi is to determine the **number of columns**. We can either union order by index or select by `NULL`, whatever floats your boat.
 
 Note that `NULL` works because it's convertible to every common data type, thus makes our payload more likely to succeed.
 
