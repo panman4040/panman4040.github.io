@@ -1,5 +1,5 @@
 +++
-date = '2026-04-27T07:23:16+07:00'
+date = '2026-10-11T16:25:16+08:00'
 draft = false
 title = 'training'
 showLastUpdated = true
