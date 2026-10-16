@@ -18,7 +18,7 @@ enableGitInfo = true
 
 [params]
   contentTypeName = "posts"
-  showMenuItems = 6
+  showMenuItems = 7
   fullWidthTheme = false
   centerTheme = true
   autoCover = true
@@ -54,31 +54,37 @@ enableGitInfo = true
     weight = 1
 
   [[languages.en.menu.main]]
+    identifier = "blog"
+    name = "blog"
+    url = "/blog"
+    weight = 2
+
+  [[languages.en.menu.main]]
     identifier = "learning"
     name = "learning"
     url = "/learning"
-    weight = 2
+    weight = 3
 
   [[languages.en.menu.main]]
     identifier = "training"
     name = "training"
     url = "/training"
-    weight = 3
+    weight = 4
 
   [[languages.en.menu.main]]
     identifier = "ctf"
     name = "CTF"
     url = "/ctf"
-    weight = 4
+    weight = 5
 
   [[languages.en.menu.main]]
     identifier = "projects"
     name = "projects"
     url = "/projects"
-    weight = 5
+    weight = 6
 
   [[languages.en.menu.main]]
     identifier = "search"
     name = "search"
     url = "/search"
-    weight = 6
+    weight = 7

@@ -7,9 +7,10 @@ showLastUpdated = true
 # welcome aboard! hope you're feeling cozy
 Hello there! I am An, a Year 2 Computer Science student at NTU. Welcome to my blog where I document every nitty gritty detail of my cybersecurity journey!
 
-- [learning](/learning): learning blog that I update periodically, divided by categories
-- [training](/training): notes and solutions from cool hands-on practice platforms
-- [CTF Writeups](/ctf): detailed writeups from CTF competitions I have participated
-- [projects](/projects): some of my sickkkk projects
+- [/blog](/blog): general posts and updates
+- [/learning](/learning): learning blog that I update periodically, divided by categories
+- [/training](/training): notes and solutions from cool hands-on practice platforms
+- [/CTF](/ctf): detailed writeups from CTF competitions I have participated
+- [/projects](/projects): some of my sickkkk projects
 
 

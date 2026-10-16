@@ -4,6 +4,6 @@ draft = false
 title = 'training'
 showLastUpdated = true
 +++
-# training
+# /training
 
 My personal note stash for popular online learning platforms. Feel free to check them out!

@@ -4,6 +4,6 @@ draft = false
 title = 'learning'
 showLastUpdated = true
 +++
-# learning
+# /learning
 
 these are the notes for all sorts of topics I find interesting, feel free to check them out!
